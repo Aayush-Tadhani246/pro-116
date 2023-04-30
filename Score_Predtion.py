@@ -22,5 +22,6 @@ for x in score:
     else:
         Y.append(1);
 
+
 accuracy = accuracy_score(chance, Y);
 print(accuracy);
